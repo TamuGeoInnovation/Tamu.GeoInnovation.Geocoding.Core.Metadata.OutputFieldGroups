@@ -40,7 +40,9 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.OutputFields
             ret.Add(new DatabaseFieldMapping(prefix + "FM_SelectionMethod", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "FM_SelectionNotes", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "FM_GeographyType", DatabaseSuperDataType.String, 255));
-            
+            //PAYTON:ALL RETURNS - BATCH
+            ret.Add(new DatabaseFieldMapping(prefix + "OutputGeocodes", DatabaseSuperDataType.String, 1000));
+
             return ret;
         }
     }
