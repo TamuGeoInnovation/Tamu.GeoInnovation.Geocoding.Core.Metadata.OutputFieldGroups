@@ -23,6 +23,8 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.OutputFields
             ret.Add(new DatabaseFieldMapping(prefix + "MatchScore", DatabaseSuperDataType.Decimal));
             //PAYTON:MicroMatchStatus
             ret.Add(new DatabaseFieldMapping(prefix + "MicroMatchStatus", DatabaseSuperDataType.String, 255));
+            //PAYTON:PenaltyCode
+            ret.Add(new DatabaseFieldMapping(prefix + "PenaltyCode", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "MatchType", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "RegionSize", DatabaseSuperDataType.Decimal));
             ret.Add(new DatabaseFieldMapping(prefix + "RegionSizeUnits", DatabaseSuperDataType.String, 255));
