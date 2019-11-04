@@ -43,7 +43,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.OutputFields
             ret.Add(new DatabaseFieldMapping(prefix + "ZipPlus5", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "PostOfficeBoxType", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "PostOfficeBoxNumber", DatabaseSuperDataType.String, 255));
-            
+
             return ret;
         }
     }

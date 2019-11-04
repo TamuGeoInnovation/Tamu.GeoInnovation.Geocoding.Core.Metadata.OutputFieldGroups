@@ -20,7 +20,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Metadata.OutputFields
             ret.Add(new DatabaseFieldMapping(prefix + "City", DatabaseSuperDataType.String, 255));
             ret.Add(new DatabaseFieldMapping(prefix + "State", DatabaseSuperDataType.String, 50));
             ret.Add(new DatabaseFieldMapping(prefix + "Zip", DatabaseSuperDataType.String, 50));
-            
+
             return ret;
         }
     }
